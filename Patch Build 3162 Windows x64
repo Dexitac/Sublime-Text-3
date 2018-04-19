@@ -1,1 +1,0 @@
-printf '\x8b\x86\x58\x02\x00\x00\x80\x00\x01' | dd seek=$((0x39C50)) conv=notrunc bs=1 of=sublime_text.exe
