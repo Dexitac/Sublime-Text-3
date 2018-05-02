@@ -1,0 +1,1 @@
+printf '\x00\x01' | dd seek=$((0x00A2B5)) conv=notrunc bs=1 of=sublime_text
