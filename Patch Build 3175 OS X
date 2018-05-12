@@ -1,1 +1,1 @@
-printf '\x00\x01' | dd seek=$(()) conv=notrunc bs=1 of=Sublime\ Text
+printf '\x00\x01' | dd seek=$((0x98B5)) conv=notrunc bs=1 of=Sublime\ Text
